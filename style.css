@@ -15,7 +15,7 @@ center{
 .stopwatch{
     width: 90%;
     max-width:100vw;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/time-glass.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(time-glass.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
