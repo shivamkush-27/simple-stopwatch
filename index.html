@@ -8,12 +8,13 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <h1><center>Stop Watch</center></h1>
     <div class="stopwatch">
-        <h1>00:00:00</h1>
+        <h1 id="displayTime">00:00:00</h1>
         <div class="buttons">
-            <i class='bx bx-stop'></i>
-            <i class='bx bx-play' ></i>
-            <i class='bx bx-reset' ></i>
+            <i class='bx bx-stop-circle' onclick="watchStop()"></i>
+            <i class='bx bx-play-circle play-btn' onclick="watchStart()"></i>
+            <i class='bx bx-reset' onclick="watchReset()" ></i>
         </div>
     </div>
     <script src="script.js"></script>
