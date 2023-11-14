@@ -43,6 +43,7 @@ center{
     font-size: 6em;
     color: coral;
 }
+/* Responsive Design for Smaller Mobile Devices */
 @media only screen and (max-width:361px){
     .stopwatch{
         width: 100%;
